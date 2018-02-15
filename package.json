@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/johntradiction/IS445-studentpage/issues"
   },
-  "homepage": "https://github.com/johntradiction/IS445-studentpage#readme"
+  "homepage": "https://github.com/johntradiction/IS445-studentpage#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
