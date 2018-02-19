@@ -1,0 +1,10 @@
+#menuitems {
+    list-style:none;
+    margin:0 auto;
+}
+#menuitems li {
+    text-align:center;
+}
+body { 
+    padding-top: 114px; 
+}
