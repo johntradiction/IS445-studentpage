@@ -8,3 +8,6 @@
 body { 
     padding-top: 163px;
 }
+#footer {
+    justify-content: center;
+}
