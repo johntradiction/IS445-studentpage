@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type = "text/css" href="styles/style.css">
-    <title>IS445 - About</title>
+    <title>IS445 - Home</title>
   </head>
   <div class="containter fixed-top">
     <div class="navbar bg-light justify-content-center">
@@ -25,7 +25,7 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link font-weight-bold" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="bootstrap.html">Bootstrap</a>
@@ -35,8 +35,8 @@
               Future
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="homework3.html">Homework 3</a>
-              <a class="dropdown-item" href="#">Homework 4</a>
+              <a class="dropdown-item disabled" href="#">Homework 3</a>
+              <a class="dropdown-item" href="#">Homework 4 <span class="sr-only">(current)</span></a>
               <a class="dropdown-item" href="#">Homework 5</a>
               <a class="dropdown-item" href="#">Homework 6</a>
             </div>
@@ -52,38 +52,25 @@
     </nav>
   </div>
   <body>
-    <div class="container" style="max-width:750px">
-      <h2 class="text-center">"Woof woof woooof, woof woof woof" -dog</h2>
-      <div class="card">
-          <img class="card-img-top" src="images/wrenchy.jpg" alt="Card image cap">
-          <ul class="list-group">
-              <li class="list-group-item">
-                <h5 class="card-title">About Me</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Education and Skills</h6>
-              </li>
-              <li class="list-group-item">
-                <h5 class="card-title">Education</h5>
-                <p class="card-text">2018, Information Systems, CSULB</p>
-              </li>
-              <li class="list-group-item">
-                  <h5 class="card-title">Skills</h5>
-                  <p class="card-text">Python, Oracle</p>
-              </li>
-          </ul>
-      </div>
+    <div class="container">
+    <h2>JavaScript Homework</h2>
+
+    <h3>The program output</h3>
+    <hr>
+    <p id='output'></p>
+    <script src='scripts/stepprog.js'></script>
+    <hr>
     </div>
-    <div class="container" style="height:50px"></div>
+      
     <footer>
-      <nav class="navbar sticky-bottom bg-light" id="footer">
-        1250 Bellflower Blvd, Long Beach, CA 90840
+      <nav class="navbar fixed-bottom bg-light" id="footer">
+      1250 Bellflower Blvd, Long Beach, CA 90840
       </div>
     </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-  
 </html>
