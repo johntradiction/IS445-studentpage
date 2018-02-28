@@ -1,24 +1,21 @@
-let start=prompt('Enter the start:');
-let startInt=parseInt(start);
-let end=prompt('Enter the end:');
-let endInt=parseInt(end);
-let step=prompt('Enter the step:');
-let stepInt=parseInt(step);
-var stepArray= new Array();
-var total=0;
-var binArray= new Array();
-if (isNaN(startInt)||isNaN(endInt)||isNaN(stepInt)||stepInt==0||startInt<endInt && stepInt<0||startInt>endInt && stepInt>0) {
+let start=parseInt(prompt('Enter the start:'));
+let end=parseInt(prompt('Enter the end:'));
+let step=parseInt(prompt('Enter the step:'));
+let stepArray= new Array();
+let total=0;
+let binArray= new Array();
+if (isNaN(start)||isNaN(end)||isNaN(step)||step==0||start<end && step<0||start>end && step>0) {
     document.write('Invalid integer input, please reload and try again.');
 }
 else {
     if (step>0) {
-        for (startInt; startInt<=endInt; startInt+=stepInt) {
-            stepArray.push(startInt);
+        for (start; start<=end; start+=step) {
+            stepArray.push(start);
         }
     }
     if (step<0) {
-        for (startInt; startInt>=endInt; startInt+=stepInt) {
-            stepArray.push(startInt);
+        for (start; start>=end; start+=step) {
+            stepArray.push(start);
         }
     }
     for (var i=0, len=stepArray.length; i<len; i++) {
