@@ -1,5 +1,5 @@
 {
-  "name": "IS445-studentpage",
+  "name": "studentpage",
   "version": "1.0.0",
   "description": "homework2",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johntradiction/IS445-studentpage.git"
+    "url": "git+https://github.com/johntradiction/studentpage.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johntradiction/IS445-studentpage/issues"
+    "url": "https://github.com/johntradiction/studentpage/issues"
   },
-  "homepage": "https://github.com/johntradiction/IS445-studentpage#readme",
+  "homepage": "https://github.com/johntradiction/studentpage#readme",
   "dependencies": {
     "express": "^4.16.2"
   },
