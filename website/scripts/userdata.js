@@ -24,12 +24,12 @@ fetch("https://jsonplaceholder.typicode.com/users")
         fetchSort(myJson);
     });
 function fetchSort(data){
-    let username = new Array();
+    let usernames = new Array();
     for (let i=0, len=data.length; i<len; i++){
-        username.push(' '+'"'+data[i].username+'"')
+        usernames.push(' '+'"'+data[i].username+'"')
     }
-    username.sort(function(a, b){
+    usernames.sort(function(a, b){
     return a.length - b.length;
     });
-    document.getElementById('fetch').innerHTML = username;
+    document.getElementById('fetch').innerHTML = usernames;
 }
