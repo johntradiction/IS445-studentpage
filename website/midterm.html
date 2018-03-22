@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Midterm</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type = "text/css" href="styles/style.css">
+</head>
+<div class="containter fixed-top">
+        <div class="navbar bg-light justify-content-center">
+          <h3>IS445 Homework and Project</h3>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a class="navbar-brand" href="#">John Tran</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" id="menuitems">
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bootstrap.html">Bootstrap</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Future
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="homework3.html">Homework 3</a>
+                  <a class="dropdown-item" href="homework4.html">Homework 4</a>
+                  <a class="dropdown-item" href="midterm.html">Midterm</a>
+                  <a class="dropdown-item" href="#">Homework 5</a>
+                  <a class="dropdown-item" href="#">Homework 6</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-item nav-link disabled" href="#">Project</a>
+              </li>
+            </ul>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </nav>
+      </div>
+<body>
+    <div class="container">
+        <div class="jumbotron bg-info text-light text-center">
+            <h1>IS445 Midterm Exam</h1><br>
+            <h4>Find all prime numbers between two numbers</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Number 1:</h4>
+                <input name="num1" id="num1" class="form-control mr-sm-2" type="number" placeholder="Enter number between 2 and 100" required>
+            </div>
+            <div class="col">
+                <h4>Number 2:</h4>
+                <input name="num2" id="num2" class="form-control mr-sm-2" type="number" placeholder="Enter number between 2 and 100" required>
+            </div>
+        </div>
+        <br>
+        <button id="primeBtn" class="btn btn-outline-primary">Submit</button>
+        <br>
+        <br>
+        <h4 id="result" class="text-info"></h4>
+        <h5 id="output" class="text-success"></h5>
+        <h4 id="errorMSG" class="text-danger"></h4>
+    </div>
+    <script src='scripts/midterm.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
