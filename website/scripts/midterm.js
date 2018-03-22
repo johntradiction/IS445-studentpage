@@ -14,7 +14,7 @@ primeBtn.addEventListener('click', () => {
     if (val1<2||val2<2||val1>100||val2>100) {
         errorMSG.innerHTML = ('Invalid input, please try again.')
     }
-    else if (val1<val2) {
+    else if (val1<=val2) {
         for (var i=val1; i<=val2; i++) {
             numArray.push(i);
         }
@@ -27,7 +27,7 @@ primeBtn.addEventListener('click', () => {
         result.innerHTML=('There are ' + numArray.length + ' prime numbers.')
         output.innerHTML=numArray
     }
-    else if (val2<val1) {
+    else if (val2<=val1) {
         for (var i=val1; i>=val2; i--) {
             numArray.push(i);
         }
